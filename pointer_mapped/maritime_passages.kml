@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>RouteQ maritime passages</name>
+<Style id="R1"><LineStyle><color>ff0000ff</color><width>3</width></LineStyle></Style>
+<Style id="R2"><LineStyle><color>ff00a5ff</color><width>3</width></LineStyle></Style>
+<Style id="R3"><LineStyle><color>ff00aa00</color><width>3</width></LineStyle></Style>
+<Style id="R4"><LineStyle><color>ffff0000</color><width>3</width></LineStyle></Style>
+<Style id="R5"><LineStyle><color>ffaa00aa</color><width>3</width></LineStyle></Style>
+<Placemark><name>R1-A</name><description>Illustrative passage, not for navigation</description><styleUrl>#R1</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 68.0,19.5,0 62.0,22.5,0 59.0,24.5,0 57.0,25.9,0 56.45,26.5,0 55.3,26.0,0 55.06,25.01,0</coordinates></LineString></Placemark>
+<Placemark><name>R1-B</name><description>Illustrative passage, not for navigation</description><styleUrl>#R1</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 69.5,18.0,0 63.5,21.0,0 60.0,23.5,0 57.5,25.5,0 56.45,26.5,0 55.3,26.0,0 55.06,25.01,0</coordinates></LineString></Placemark>
+<Placemark><name>R2-A</name><description>Illustrative passage, not for navigation</description><styleUrl>#R2</styleUrl><LineString><tessellate>1</tessellate><coordinates>69.7,22.74,0 69.4,22.6,0 69.05,22.5,0 68.6,22.35,0 68.2,22.0,0 63.5,23.2,0 59.0,24.5,0 57.0,25.9,0 56.45,26.5,0 55.3,26.0,0 55.06,25.01,0</coordinates></LineString></Placemark>
+<Placemark><name>R2-B</name><description>Illustrative passage, not for navigation</description><styleUrl>#R2</styleUrl><LineString><tessellate>1</tessellate><coordinates>69.7,22.74,0 69.4,22.6,0 69.05,22.5,0 68.6,22.35,0 66.5,21.0,0 60.0,23.5,0 57.5,25.5,0 56.45,26.5,0 55.3,26.0,0 55.06,25.01,0</coordinates></LineString></Placemark>
+<Placemark><name>R3-A</name><description>Illustrative passage, not for navigation</description><styleUrl>#R3</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 68.0,17.5,0 61.0,16.8,0 56.5,16.5,0 54.6,16.55,0 54.0,16.95,0</coordinates></LineString></Placemark>
+<Placemark><name>R3-B</name><description>Illustrative passage, not for navigation</description><styleUrl>#R3</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 70.0,16.0,0 62.0,15.5,0 56.0,16.3,0 54.0,16.95,0</coordinates></LineString></Placemark>
+<Placemark><name>R4-A</name><description>Illustrative passage, not for navigation</description><styleUrl>#R4</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 72.0,16.0,0 73.5,13.0,0 75.6,10.0,0 76.26,9.97,0</coordinates></LineString></Placemark>
+<Placemark><name>R4-B</name><description>Illustrative passage, not for navigation</description><styleUrl>#R4</styleUrl><LineString><tessellate>1</tessellate><coordinates>72.95,18.95,0 70.5,17.5,0 71.0,13.5,0 73.5,10.5,0 75.0,9.9,0 76.26,9.97,0</coordinates></LineString></Placemark>
+<Placemark><name>R5-A</name><description>Illustrative passage, not for navigation</description><styleUrl>#R5</styleUrl><LineString><tessellate>1</tessellate><coordinates>76.26,9.97,0 75.6,9.5,0 76.3,7.5,0 78.3,6.6,0 79.4,6.7,0 79.85,6.95,0</coordinates></LineString></Placemark>
+<Placemark><name>R5-B</name><description>Illustrative passage, not for navigation</description><styleUrl>#R5</styleUrl><LineString><tessellate>1</tessellate><coordinates>76.26,9.97,0 75.0,9.0,0 76.0,7.0,0 78.5,5.9,0 79.5,6.3,0 79.85,6.95,0</coordinates></LineString></Placemark>
+<Placemark><name>Nhava Sheva (INNSA)</name><Point><coordinates>72.95,18.95,0</coordinates></Point></Placemark>
+<Placemark><name>Mundra (INMUN)</name><Point><coordinates>69.7,22.74,0</coordinates></Point></Placemark>
+<Placemark><name>Kochi (INCOK)</name><Point><coordinates>76.26,9.97,0</coordinates></Point></Placemark>
+<Placemark><name>Jebel Ali (AEJEA)</name><Point><coordinates>55.06,25.01,0</coordinates></Point></Placemark>
+<Placemark><name>Salalah (OMSLL)</name><Point><coordinates>54.0,16.95,0</coordinates></Point></Placemark>
+<Placemark><name>Colombo (LKCMB)</name><Point><coordinates>79.85,6.95,0</coordinates></Point></Placemark>
+</Document></kml>

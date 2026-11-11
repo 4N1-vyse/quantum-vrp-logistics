@@ -1,0 +1,7 @@
+location_id,name,type,lat_deg,lon_deg,source
+INNSA,Nhava Sheva,seaport,18.95,72.95,gmaps
+INMUN,Mundra,seaport,22.74,69.7,gmaps
+INCOK,Kochi,seaport,9.97,76.26,gmaps
+AEJEA,Jebel Ali,seaport,25.01,55.06,gmaps
+OMSLL,Salalah,seaport,16.95,54,gmaps
+LKCMB,Colombo,seaport,6.95,79.85,gmaps
