@@ -21,8 +21,15 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 from backend.app.core.database import Base
-from backend.app.models.scenario import Scenario
-from backend.app.models.shipment import Shipment
+from backend.app.models import (
+    Scenario,
+    Shipment,
+    Location,
+    Route,
+    Passage,
+    Waypoint,
+    Vessel,
+)
 
 target_metadata = Base.metadata
 
