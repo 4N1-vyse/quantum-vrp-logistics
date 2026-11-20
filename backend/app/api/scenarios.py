@@ -1,6 +1,6 @@
 from uuid import uuid4
 
-from fastapi import APIRouter, Depends, status
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
 from backend.app.core.database import get_db
@@ -42,3 +42,23 @@ def create_scenario(
 )
 def get_scenarios(db: Session = Depends(get_db)):
     return db.query(Scenario).all()
+
+@router.get(
+    "/{scenario_id}",
+    response_model=ScenarioResponse,
+)
+def get_scenario(
+    scenario_id: str,
+    db: Session = Depends(get_db),
+):
+    scenario = db.query(Scenario).filter(
+        Scenario.id == scenario_id
+    ).first()
+
+    if scenario is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Scenario not found",
+        )
+
+    return scenario
