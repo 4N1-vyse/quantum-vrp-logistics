@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres:17
+    container_name: routeq-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: routeq
+      POSTGRES_USER: routeq_user
+      POSTGRES_PASSWORD: routeq_dev_password
+
+    ports:
+      - "5434:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U routeq_user -d routeq"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
