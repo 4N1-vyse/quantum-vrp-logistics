@@ -29,6 +29,7 @@ from backend.app.models import (
     Passage,
     Waypoint,
     Vessel,
+    OptimizationRun,
 )
 
 target_metadata = Base.metadata

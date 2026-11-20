@@ -11,6 +11,8 @@ from backend.app.api.routes import router as routes_router
 from backend.app.api.passages import router as passages_router
 from backend.app.api.vessels import router as vessels_router
 
+from backend.app.api.optimization import router as optimization_router
+
 
 app = FastAPI(
     title="RouteQ API",
@@ -26,6 +28,8 @@ app.include_router(locations_router)
 app.include_router(routes_router)
 app.include_router(passages_router)
 app.include_router(vessels_router)
+
+app.include_router(optimization_router)
 
 
 @app.get("/health/database")
