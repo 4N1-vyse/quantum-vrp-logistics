@@ -1,0 +1,120 @@
+{
+  "selected_options": {
+    "S1": {
+      "vessel": "V2",
+      "passage": "R1-A"
+    },
+    "S2": {
+      "vessel": "V2",
+      "passage": "R1-A"
+    },
+    "S3": {
+      "vessel": "V3",
+      "passage": "R3-A"
+    },
+    "S4": {
+      "vessel": "V6",
+      "passage": "R4-A"
+    },
+    "S5": {
+      "vessel": "V5",
+      "passage": "R5-A"
+    },
+    "S6": {
+      "vessel": "V4",
+      "passage": "R2-A"
+    }
+  },
+  "feasible": true,
+  "objective_value": 1297.47,
+  "objective_breakdown": {
+    "voyage_cost": 1009.47,
+    "per_tonne_cost": 288.0,
+    "voyages": [
+      {
+        "vessel": "V2",
+        "passage": "R1-A",
+        "route": "R1",
+        "shipments": [
+          "S1",
+          "S2"
+        ],
+        "load_t": 275.0,
+        "capacity_t": 300.0,
+        "hours": 84.0,
+        "arrival_utc": "2026-11-23T12:00:10Z",
+        "mean_wave_m": 0.5878114418723513,
+        "voyage_cost": 431.77,
+        "per_tonne_cost": 110.0
+      },
+      {
+        "vessel": "V3",
+        "passage": "R3-A",
+        "route": "R3",
+        "shipments": [
+          "S3"
+        ],
+        "load_t": 40.0,
+        "capacity_t": 120.0,
+        "hours": 63.48,
+        "arrival_utc": "2026-11-22T15:28:50Z",
+        "mean_wave_m": 0.9546121285096211,
+        "voyage_cost": 209.53,
+        "per_tonne_cost": 24.0
+      },
+      {
+        "vessel": "V4",
+        "passage": "R2-A",
+        "route": "R2",
+        "shipments": [
+          "S6"
+        ],
+        "load_t": 70.0,
+        "capacity_t": 80.0,
+        "hours": 62.75,
+        "arrival_utc": "2026-11-22T14:44:48Z",
+        "mean_wave_m": 0.48570233662973844,
+        "voyage_cost": 135.21,
+        "per_tonne_cost": 49.0
+      },
+      {
+        "vessel": "V5",
+        "passage": "R5-A",
+        "route": "R5",
+        "shipments": [
+          "S5"
+        ],
+        "load_t": 60.0,
+        "capacity_t": 100.0,
+        "hours": 28.93,
+        "arrival_utc": "2026-11-21T04:56:05Z",
+        "mean_wave_m": 0.9176192989207981,
+        "voyage_cost": 82.01,
+        "per_tonne_cost": 39.0
+      },
+      {
+        "vessel": "V6",
+        "passage": "R4-A",
+        "route": "R4",
+        "shipments": [
+          "S4"
+        ],
+        "load_t": 120.0,
+        "capacity_t": 150.0,
+        "hours": 38.84,
+        "arrival_utc": "2026-11-21T14:50:29Z",
+        "mean_wave_m": 0.7503562700557309,
+        "voyage_cost": 150.95,
+        "per_tonne_cost": 66.0
+      }
+    ]
+  },
+  "solver_name": "ortools-cpsat",
+  "runtime_seconds": 0.015256099999533035,
+  "warnings": [],
+  "provenance": {
+    "snapshot": "open-meteo-marine fetched 2026-11-20T12:54Z (44 points)",
+    "scenario": "maritime-demo",
+    "solver_status": "OPTIMAL"
+  }
+}

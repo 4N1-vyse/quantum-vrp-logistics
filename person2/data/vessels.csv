@@ -1,0 +1,7 @@
+vessel_id,type,capacity_t,speed_kn,hour_rate,tonne_rate,synthetic
+V1,container feeder,200,16,4.0,0.50,yes
+V2,large feeder,300,14,5.0,0.40,yes
+V3,small feeder,120,18,3.0,0.60,yes
+V4,coaster,80,15,2.0,0.70,yes
+V5,coaster,100,14,2.2,0.65,yes
+V6,mid feeder,150,17,3.5,0.55,yes

@@ -1,0 +1,7 @@
+shipment_id,mode,route_id,weight_t,earliest_departure_utc,deadline_utc,synthetic
+S1,maritime,R1,180,2026-11-18T00:00:00Z,2026-11-22T00:00:00Z,yes
+S2,maritime,R1,95,2026-11-18T00:00:00Z,2026-11-22T12:00:00Z,yes
+S3,maritime,R3,40,2026-11-18T00:00:00Z,2026-11-21T00:00:00Z,yes
+S4,maritime,R4,120,2026-11-18T00:00:00Z,2026-11-20T12:00:00Z,yes
+S5,maritime,R5,60,2026-11-18T00:00:00Z,2026-11-20T00:00:00Z,yes
+S6,maritime,R2,70,2026-11-18T00:00:00Z,2026-11-21T12:00:00Z,yes
