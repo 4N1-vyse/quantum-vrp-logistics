@@ -4,6 +4,7 @@ from fastapi import FastAPI
 
 from backend.app.api.health import router as health_router
 from backend.app.api.scenarios import router as scenarios_router
+from backend.app.api.shipments import router as shipments_router
 
 app = FastAPI(
     title="RouteQ API",
@@ -13,6 +14,7 @@ app = FastAPI(
 
 app.include_router(health_router)
 app.include_router(scenarios_router)
+app.include_router(shipments_router)
 
 @app.get("/health/database")
 def database_health_check():
